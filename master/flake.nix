@@ -1,5 +1,5 @@
 {
-  description = ''A simple library to generate random data, using the system's PRNG.'';
+  description = ''A simple library to create random strings of data.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-sysrandom-master.flake = false;
   inputs.src-sysrandom-master.owner = "euantorano";
-  inputs.src-sysrandom-master.ref   = "refs/heads/master";
+  inputs.src-sysrandom-master.ref   = "master";
   inputs.src-sysrandom-master.repo  = "sysrandom.nim";
   inputs.src-sysrandom-master.type  = "github";
   
